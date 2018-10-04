@@ -39,7 +39,7 @@ queue_t *q_new()
 /* Free all storage used by queue */
 void q_free(queue_t *q)
 {
-    /* Return if malloc returned NULL. */
+    /* Return if q is NULL. */
     if (q == NULL) {
         return;
     }
